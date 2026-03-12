@@ -104,13 +104,22 @@
 <br>
 
 ```bash
-git clone https://github.com/rajugay/termux && cd ZorkOS-Termux && chmod +x *;./install
+git clone https://github.com/rajugay/termux
 ```
 
 
 <div align="center">
 <br>
 
+<br>
+
+```bash
+cd ZorkOS-Termux && chmod +x *;./install
+```
+
+
+<div align="center">
+<br>
 > **📱 Restart Termux after installation and experience the transformation!**
 
 <br>
