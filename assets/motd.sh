@@ -166,7 +166,7 @@ zork_motd() {
     
     local _mcmd
     _mcmd=$(grep "^CMD_NAME=" "$HOME/.zorkos/user.conf" 2>/dev/null | cut -d= -f2)
-    [[ -z "$_mcmd" ]] && _mcmd="zork"
+    [[ -z "$_mcmd" ]] && _mcmd="Mehak"
     local -a tips=(
         "💡 Use '${_mcmd}' to open customizer"
         "💡 Ctrl+R for fuzzy search"
@@ -178,8 +178,8 @@ zork_motd() {
         "💡 '${_mcmd} dash' for dashboard"
         "💡 '${_mcmd} hack' for hacker mode"
         "💡 '${_mcmd} achievements' for XP"
-        "⚡ Developed by Zork — ZorkOS 2026"
-        "🚀 ZorkOS v2.0 — Beyond All"
+        "⚡ Developed by Mehak — MehakOS "
+        "🚀 MehakOS v2.0 — Beyond All"
     )
     
     local tip_count=${#tips[@]}
