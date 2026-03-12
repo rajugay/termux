@@ -245,7 +245,7 @@ zork_logo_boot() {
     if [[ ${#logo[@]} -eq 0 ]]; then
         local _cmd_name
         _cmd_name=$(grep "^CMD_NAME=" "$HOME/.zorkos/user.conf" 2>/dev/null | cut -d= -f2)
-        [[ -z "$_cmd_name" ]] && _cmd_name="ZORK"
+        [[ -z "$_cmd_name" ]] && _cmd_name="MEHAK"
         _cmd_name=$(echo "$_cmd_name" | tr '[:lower:]' '[:upper:]')
         logo=("⚡ ${_cmd_name} OS ⚡" "  v2.0 • 2026")
     fi
@@ -279,7 +279,7 @@ zork_logo_boot() {
     
     local madeby
     madeby=$(grep "^USERNAME=" "$HOME/.zorkos/user.conf" 2>/dev/null | cut -d= -f2)
-    [[ -z "$madeby" ]] && madeby="Zork"
+    [[ -z "$madeby" ]] && madeby="MEHAK"
     madeby="${madeby}'s Terminal — Beyond All Limits"
     local mx=$(( (cols - ${#madeby}) / 2 ))
     [[ $mx -lt 1 ]] && mx=1
