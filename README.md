@@ -68,18 +68,18 @@
 
 ```
  ╔══════════════════════════════════════════════════════════════╗
- ║                                                              
- ║   ZorkOS is an all-in-one Termux terminal customization      
- ║   framework that transforms your boring Android terminal     
- ║   into a CYBERPUNK-STYLED POWERHOUSE.                        
- ║                                                              
- ║   One single command installs everything:                    
- ║   → Themes, Animations, Plugins, Fonts, Colors               
- ║   → 17+ Feature Modules  |  140+ ZSH Themes                  
- ║   → Security System  |  Achievement Engine                   
- ║                                                              
- ║   ⚡ No root required  ⚡ No bloat  ⚡ Pure power          
- ║                                                              
+ ║                                                              ║
+ ║   ZorkOS is an all-in-one Termux terminal customization      ║ 
+ ║   framework that transforms your boring Android terminal     ║
+ ║   into a CYBERPUNK-STYLED POWERHOUSE.                        ║
+ ║                                                              ║
+ ║   One single command installs everything:                    ║
+ ║   → Themes, Animations, Plugins, Fonts, Colors               ║
+ ║   → 17+ Feature Modules  |  140+ ZSH Themes                  ║
+ ║   → Security System  |  Achievement Engine                   ║
+ ║                                                              ║
+ ║   ⚡ No root required  ⚡ No bloat  ⚡ Pure power  ⚡      ║
+ ║                                                              ║
  ╚══════════════════════════════════════════════════════════════╝
 ```
 
@@ -102,7 +102,7 @@
 </div>
 
 <br>
-
+**FIRST COMMAND**
 ```bash
 git clone https://github.com/rajugay/termux
 ```
@@ -112,7 +112,7 @@ git clone https://github.com/rajugay/termux
 <br>
 
 <br>
-
+**SECOND COMMAND**
 ```bash
 cd ZorkOS-Termux && chmod +x *;./install
 ```
